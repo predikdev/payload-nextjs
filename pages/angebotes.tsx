@@ -5,7 +5,7 @@ import { GetServerSideProps } from 'next';
 import { Type as PageType } from '../collections/Page';
 import NotFound from '../components/NotFound';
 import Head from '../components/Head';
-import classes from '../css/angebotes.module.scss';
+import classes from '../css/angebotes.module.css';
 import RenderBlocks from '../components/RenderBlocks';
 import Navigation from '../components/Navigation';
 

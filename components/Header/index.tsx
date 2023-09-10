@@ -1,7 +1,7 @@
 import React from 'react';
 import { useRouter } from 'next/router';
 
-import classes from '../../css/index.module.scss';
+import classes from '../../css/header.module.css';
 
 const Navigation: React.FC = () => {
   const { asPath } = useRouter();

@@ -5,7 +5,7 @@ import { GetServerSideProps } from 'next';
 import { Type as PageType } from '../collections/Page';
 import NotFound from '../components/NotFound';
 import Head from '../components/Head';
-import classes from '../css/angebotes.module.css';
+// import classes from '../css/i.module.css';
 import RenderBlocks from '../components/RenderBlocks';
 import Navigation from '../components/Navigation';
 
@@ -26,7 +26,8 @@ const Page: React.FC<Props> = (props) => {
   return (
     <React.Fragment>
       <Navigation />
-      <main className={classes.page}>
+      {/* <main className={classes.page}> */}
+      <main>
         <Head
           title={page.meta?.title || page.title}
           description={page.meta?.description}

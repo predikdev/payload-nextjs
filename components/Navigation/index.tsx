@@ -3,7 +3,7 @@ import Link from 'next/link';
 import getConfig from 'next/config';
 import { useRouter } from 'next/router';
 
-import classes from '../../css/angebotes.module.scss';
+import classes from '../../css/navigation.module.css';
 
 const {
   publicRuntimeConfig: { SERVER_URL },
