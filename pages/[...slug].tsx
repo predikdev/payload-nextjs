@@ -7,6 +7,7 @@ import NotFound from '../components/NotFound';
 import Head from '../components/Head';
 import classes from '../css/page.module.css';
 import RenderBlocks from '../components/RenderBlocks';
+import Navigation from '../components/Navigation';
 
 const { publicRuntimeConfig: { SERVER_URL } } = getConfig();
 
@@ -30,6 +31,7 @@ const Page: React.FC<Props> = (props) => {
         keywords={page.meta?.keywords}
       />
       <header className={classes.header}>
+        <Navigation />
         <h1>{page.title}</h1>
       </header>
       <div className={classes.featuredImage}>

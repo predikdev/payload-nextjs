@@ -33,8 +33,8 @@ export type Type = {
   }
 }
 
-export const Page: CollectionConfig = {
-  slug: 'pages',
+export const Angebotes: CollectionConfig = {
+  slug: 'angebotes',
   admin: {
     useAsTitle: 'title',
   },
@@ -44,7 +44,7 @@ export const Page: CollectionConfig = {
   fields: [
     {
       name: 'title',
-      label: 'Page Title',
+      label: 'Angebot Title',
       type: 'text',
       required: true,
     },
@@ -104,4 +104,4 @@ export const Page: CollectionConfig = {
   ],
 };
 
-export default Page;
+export default Angebotes;
